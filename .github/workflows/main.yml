@@ -24,11 +24,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
-          external_repository: simonszu/simonszu.github.io
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           #   keep_files: true
-          user_name: simonszu
-          user_email: mail@simonszu.de
-          publish_branch: main
         #   cname: example.com
