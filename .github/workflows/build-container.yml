@@ -51,3 +51,8 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }},${{ env.GH_REGISTRY }}/${{ env.GH_IMAGE_NAME }}:latest
           labels: ${{ steps.meta.outputs.labels }}
+
+      - name: Trigger watchtower webhook
+        uses: thinkdolabs/curl@master
+        with:
+          args: "-H 'Authorization: Bearer ${{ secrets.WATCHTOWER_TOKEN }}' ${{ secrets.WATCHTOWER_URL}}"
