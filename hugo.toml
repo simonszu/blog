@@ -1,4 +1,4 @@
 baseURL = 'https://blog.simonszu.de'
 languageCode = 'de-de'
-title = 'Lets Go Hugo'
+title = 'Yelling at clouds'
 theme = 'ananke'
