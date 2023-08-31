@@ -50,4 +50,4 @@ So far, the first set of batteries are driving the whole setup for over 8 months
 - There is a delay of two seconds between the bell ringing and the notification being sent, which is caused by the ESP to wake up and connect to the WiFi. I tried to make that interval as short as possible, but am out of ideas what i could improve. Pull requests to the Git repo are gladly accepted.
 
 
-This concludes week 2 of the One thing a week challenge
+This concludes week 2 of the [One thing a week](https://blog.simonszu.de/posts/one-thing-a-week/) challenge

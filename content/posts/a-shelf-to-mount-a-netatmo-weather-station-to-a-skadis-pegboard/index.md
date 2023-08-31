@@ -26,4 +26,4 @@ If you are interested in printing one yourself, here are the relevant links:
 
 Lessons learned for myself: Don't use simple tools if the task grows more complex than these tools could handle. I took that as an opportunity to learn the usage of [Fusion360](https://www.autodesk.de/products/fusion-360/personal).
 
-This post also is my contribution to the One thing a week challenge - Week 1.
+This post also is my contribution to the [One thing a week](https://blog.simonszu.de/posts/one-thing-a-week/) challenge - Week 1.
