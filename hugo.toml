@@ -1,4 +1,8 @@
 baseURL = 'https://blog.simonszu.de'
 languageCode = 'de-de'
 title = 'Yelling at clouds'
-theme = 'ananke'
+
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+
+[params]
+  custom_css = ["custom.css"]
