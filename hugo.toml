@@ -1,8 +1,0 @@
-baseURL = 'https://blog.simonszu.de'
-languageCode = 'de-de'
-title = 'Yelling at clouds'
-
-theme = 'ananke'
-
-[params]
-  custom_css = ["custom.css"]
