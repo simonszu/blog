@@ -18,7 +18,9 @@ params:
     &#32;<small>Except where otherwise noted, content on this site is licensed under a &#32;
     <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative
     Commons Attribution 4.0 International License</a>.&#32;</small>
-  divider: '\2015\2015' # Set to false to remove divider below posts on homepage
+  rss: To subscribe to this RSS feed, copy its address and paste it into your
+    favorite feed reader.
+  divider: false # Set to false to remove divider below posts on homepage
   css:
     - css/custom.css
 
