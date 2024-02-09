@@ -1,31 +1,107 @@
-baseURL: 'https://blog.simonszu.de'
-languageCode: 'de-de'
-title: 'Yelling at clouds'
 author: Simon Szustkowski
+baseURL: 'https://blog.simonszu.de'
+buildDrafts: false
+buildExpired: false
+buildFuture: false
+enableEmoji: true
+enableInlineShortcodes: true
 enableRobotsTXT: true
-
-theme: 'hugo-flex'
-
-permalinks:
-  posts: '/:filename/'
-  pages: '/:filename/'
-
+languageCode: 'de-de'
+mainsections: ["posts", "papermod"]
+minify:
+  disableXML: true
+  # minifyOutput: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+paginate: 5
 params:
-  color: chocolate
-  summaries: true
-  description: Simons blog
-  footer: >-
-    &#32;<small>Except where otherwise noted, content on this site is licensed under a &#32;
-    <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative
-    Commons Attribution 4.0 International License</a>.&#32;</small>
-  rss: To subscribe to this RSS feed, copy its address and paste it into your
-    favorite feed reader.
-  divider: false # Set to false to remove divider below posts on homepage
-  css:
-    - css/custom.css
+  author: Simon Szustkowski
+  # author: ["Me", "You"] # multiple authors
+  # comments: false
+  defaultTheme: auto
+  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  disableSpecial1stPost: true
+  # disableThemeToggle: true
+  displayFullLangName: true
+  editPost:
+    appendFilePath: true # to append file path to Edit link
+    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/simonszu/blog/content"
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+#  homeInfoParams:
+#    Title: Welcome to my blog
+#    Content: Here i infrequently write about some topics, mostly technology related.
+  images: ["images/papermod-cover.png"]
+  profileMode:
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+    enabled: false
+    # imageHeight: 120
+    imageTitle: my image
+    imageUrl: "#"
+    # imageWidth: 120
+    title: Simon Szustkowski
+  pygmentsUseClasses: true
+  ShowAllPagesInArchive: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowPageNums: true
+  ShowPostNavLinks: true
+  ShowReadingTime: true
+  ShowRssButtonInSectionTermList: true
+  ShowShareButtons: false
+  ShowToc: true
+  socialIcons:
+    - name: "Homepage"
+      url: "https://www.simonszu.de"
+    - name: "GitHub"
+      url: "https://github.com/simonszu"
+    - name: "Mastodon"
+      url: "https://ruhr.social/@ttk"
+    - name: "Instagram"
+      url: "https://www.instagram.com/ttk.photos/"
+    - name: "Youtube"
+      url: "https://www.youtube.com/channel/UCVh09qiQu3U3tGAuHhj76MA"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/simonszu/"
+theme: 'PaperMod'
+title: 'Yelling at clouds'
 
-menu:
-  nav:
-    - name: Home
-      url: https://www.simonszu.de/
-      weight: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
